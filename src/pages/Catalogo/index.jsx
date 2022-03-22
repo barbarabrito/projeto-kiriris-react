@@ -82,12 +82,14 @@ function Produtos() {
 
                     <div className="col">
                         <div className="card">
-                            <img src={m1} className="card-img-top" alt="" />
-                            <div className="card-body">
-                                <h5 className="card-title">Farinha</h5>
-                               
-                                <br />
-                                <button type="button" className="btn btn-compra"><i className="fa fa-info"></i> Detalhes</button>
+                            <div>
+                                <img src={m1} className="card-img-top" alt="" />
+                                <div className="card-body">
+                                    <h5 className="card-title">Farinha</h5>
+                                
+                                    <br />
+                                    <button type="button" className="btn btn-compra"><i className="fa fa-info"></i> Detalhes</button>
+                                </div>
                             </div>
                         </div>
                     </div>

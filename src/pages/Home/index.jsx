@@ -15,6 +15,8 @@ import KiririsIstr from '../../assets/img/kiriris_imagem.jpg';
 import { Link } from 'react-router-dom';
 import { FiLogIn } from 'react-icons/fi';
 import PlantPot from '../../assets/img/icons/plant-pot.png';
+import { HashLink } from 'react-router-hash-link';
+
 
 function Home() {
     return (
@@ -42,6 +44,9 @@ function Home() {
                                         </li>
                                         <li className="nav-item">
                                             <Link to="/contato" className="nav-link">Contato</Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <HashLink to="#c-ajuda" className="nav-link">Como ajudar</HashLink>
                                         </li>
                                         <li className="nav-item">
                                             <Link to="/login" className="nav-link"><FiLogIn id="i-login"/>Login</Link>
@@ -271,7 +276,7 @@ function Home() {
 
                     <img src={PlantPot} alt="icone planta" id="plant-pot"></img>
                 </div>
-                <div className="container mx-auto container-ajuda">
+                <div className="container mx-auto container-ajuda" id="c-ajuda">
                     <h2>Como ajudar?</h2>
                     <br/>
                     <p>Você pode ajudar comprando produtos da cultura tradicional dos Kiriris.</p>

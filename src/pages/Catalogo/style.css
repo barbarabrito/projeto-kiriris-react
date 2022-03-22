@@ -23,8 +23,7 @@
 
 .card-img-top{
     border-radius: 0%;
-    height:100%;
-    width: 100%;
+    height:180px;
     object-fit: cover;
 }
 
@@ -91,6 +90,11 @@
 
 .btn:active, .btn:focus {
     box-shadow: none !important;
+}
+
+.img-container{
+    height: 200px;
+    
 }
 
 #m-st{
